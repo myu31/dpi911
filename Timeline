@@ -1,0 +1,27 @@
+Class   	Techniques
+1	        Rundll32
+1	        Scripting
+1	        AppInit DLLs
+2	        BITS Jobs
+2	        Mshta
+2	        NTFS File Attributes
+3	        Obfuscated Files or Information
+3	        Network Sniffing
+3	        System Network Connections Discovery
+3	        System Owner/User Discovery
+4	        Scheduled Task
+4	        Application Shimming
+5	        Authentication Package
+5	        Valid Accounts
+6	        Network Share Connection Removal
+6	        Process Doppelgänging
+7	        Process Hollowing
+7	        LLMNR/NBT-NS Poisoning
+8	        Shared Webroot
+8	        Taint Shared Content
+9	        Spearphishing Link
+9	        Email Collection
+9	        Exfiltration Over Command and Control Channel
+10	      Multi-hop Proxy
+10	      Multiband Communication
+10	      Uncommonly Used Port
