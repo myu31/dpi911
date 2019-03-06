@@ -1,7 +1,9 @@
 _______________________________________________________________________________________________________________
 Technique Description: Rundll32.exe 
 ------------------------------------
-Rundll32.exe is a Windows program that allows for execution of binaries. This can be used by attackers as a defense evasion tactic as well as an execution tactic because it can be used as a proxy to run their malicious code since the process may not be monitored due to false positives.  
+Rundll32.exe is a Windows program that allows for execution of binaries. This can be used by attackers as a defense evasion 
+tactic as well as an execution tactic because it can be used as a proxy to run their malicious code since the process may 
+not be monitored due to false positives.  
 
 Assumptions 
 
@@ -11,7 +13,8 @@ Assumptions
 
     Visibility 
 
-A binary run through rundll32.exe will generate an Event ID 1 on Windows 7 through Sysmon operational logs as Process Create. When the script or binary is finished execution it will trigger EventID 5 Process Termination.  
+A binary run through rundll32.exe will generate an Event ID 1 on Windows 7 through Sysmon operational logs as Process Create. 
+When the script or binary is finished execution it will trigger EventID 5 Process Termination.  
 
     Filter/ Correlation Rule 
 
@@ -19,7 +22,9 @@ EventID=1 AND cmdline=”rundll32.exe”
 _________________________________________________________________________________________________________________
     Scripting 
 
-Technical Description: Attackers can use scripts to assist and create actions that could possibly done manually. Scripting allows for the attacks to be run faster which enables them to be able to gain access to the victim faster. Scripting can also bypass process monitoring devices by working with the operating system at the API level.  
+Technical Description: Attackers can use scripts to assist and create actions that could possibly done manually. 
+Scripting allows for the attacks to be run faster which enables them to be able to gain access to the victim faster. 
+Scripting can also bypass process monitoring devices by working with the operating system at the API level.  
 ------------------------------------
 Assumptions 
 
@@ -49,7 +54,8 @@ Assumptions
 
 From cmd line: reg import handler.reg 
 
- Detection: monitor DDL that are loaded by user32.dll and look for abnormal DLLs that are loaded into process. We can also monitor AppInit_DLLs registry for any changes that aren’t correlated with software. 
+ Detection: monitor DDL that are loaded by user32.dll and look for abnormal DLLs that are loaded into process. 
+ We can also monitor AppInit_DLLs registry for any changes that aren’t correlated with software. 
 
     -- Visibility 
 
