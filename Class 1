@@ -21,7 +21,7 @@ When the script or binary is finished execution it will trigger EventID 5 Proces
 
     Filter/ Correlation Rule 
 
-EventID=1 AND cmdline=”rundll32.exe” 
+EventCode=4656 OR EventCode=1 AND rundll32.exe
 _________________________________________________________________________________________________________________
     Scripting 
 -------------
