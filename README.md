@@ -9,13 +9,18 @@ Spearphishing Link ----- Skipped
 
 ### Execution
 Rundll32 ----- Completed
+
 Scheduled Task ----- Completed
+
 Scripting ----- Completed
 
 ### Persistence
 Applnit DLLs ----- Completed
+
 Application Shimming ----- Completed
+
 Authentication Package ----- Skipped
+
 BITS Jobs ----- Completed
 
 ### Privilege Escalation
@@ -23,22 +28,30 @@ Valid Accounts ----- Completed
 
 ### Defense Evation
 Mshta ----- Completed
+
 NTFS File Attributes ----- Completed
+
 Network Share Connection Removal ----- Completed
+
 Obfuscated Files or Information ----- Skipped
+
 Process Doppelgänging ----- Skipped
+
 Process Hollowing ----- Completed
 
 ### Credential Access
 LLMNR/NBT-NS Poisoning ----- Skipped
+
 Network Sniffing ----- Completed
 
 ### Discrovery
 System Network Connections Discovery ----- Completed
+
 System Owner/User Discovery ----- Completed
 
 ### Lateral Movement
 Shared Webroot ----- Skipped
+
 Taint Shared Content ----- Skipped
 
 ### Collection
@@ -49,6 +62,7 @@ Exfiltration Over Command and Control Channel
 
 ### Command and Control
 Multi-hop Proxy ----- Skipped
-Multiband Communication ----- Skipped
-Uncommonly Used Port ----- Completed
 
+Multiband Communication ----- Skipped
+
+Uncommonly Used Port ----- Completed
