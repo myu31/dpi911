@@ -27,4 +27,6 @@ When the script or binary is finished execution it will trigger EventID 5 Proces
 EventCode=4656 OR EventCode=1 AND rundll32.exe
 
 
-![rundll32](https://github.com/myu31/dpi911/blob/master/Execution/rundll32.jpg)
+![rundll32](/Execution/rundll32.jpg?raw=true "rundll32")
+
+
