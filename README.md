@@ -58,7 +58,7 @@ Taint Shared Content ----- Skipped
 Email Collection ----- Completed
 
 ### Exfiltration
-Exfiltration Over Command and Control Channel
+Exfiltration Over Command and Control Channel ---- Skipped
 
 ### Command and Control
 Multi-hop Proxy ----- Skipped
